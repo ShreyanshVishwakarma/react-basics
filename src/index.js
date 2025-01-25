@@ -13,9 +13,9 @@ import NestedMenu from './nested-menu';
 import LightDarkMode from './light-dark-mode';
 import OR from './QR-code-generator/OR';
 import Modal from './modal/Modal';
-
+import Profile_finder from './github-profile-finder/Profile_finder';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<Modal/>); // <App /> <App2 /> <Accordion /> <Randomhex /> <StarRating /> <ImageSlider /> <Loadmore />
+root.render(<Profile_finder />); // <App /> <App2 /> <Accordion /> <Randomhex /> <StarRating /> <ImageSlider /> <Loadmore />
 reportWebVitals();
