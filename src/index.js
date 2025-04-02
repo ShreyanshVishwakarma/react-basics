@@ -17,5 +17,5 @@ import Profile_finder from './github-profile-finder/Profile_finder';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<Profile_finder />); // <App /> <App2 /> <Accordion /> <Randomhex /> <StarRating /> <ImageSlider /> <Loadmore />
+root.render(<Loadmore />); // <App /> <App2 /> <Accordion /> <Randomhex /> <StarRating /> <ImageSlider /> <Loadmore />
 reportWebVitals();
